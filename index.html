@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="contener">
+			<div class="row">
+				<div class="col-3 header-height"></div>
+				<div class="col-9 header-height"></div>
+			</div>
+			<div class="row">
+				<div id="menuscroll" class="col-12 menu-height">
+					<ul id="menuul">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Service</a></li>
+						<li><a href="#">Galarry</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3 content-height"></div>
+				<div class="col-9 content-height">
+					<form action="" method="post" id="form">
+						<table>
+							<tr>
+								<td>First Name</td>
+								<td>
+									<input type="text" id="firstName">
+									<span id="firstNameErorr"></span>
+								</td>
+								
+							</tr>
+							<tr>
+								<td>Last Name</td>
+								<td>
+									<input type="text" id="lastName">
+									<span id="lastNameErorr"></span>
+								</td>
+								
+							</tr>
+							<tr>
+								<td>Email Address</td>
+								<td>
+									<input type="email" id="emailAddress">
+									<span id="emailAdderssErorr"></span>
+								</td>
+								
+							</tr>
+							<tr>
+								<td>Password</td>
+								<td>
+									<input type="password" id="password">
+									<input type="checkbox" id="showHide"> Show Password
+									<span id="passwordErorr"></span>
+								</td>
+								
+							</tr>
+							<tr>
+								<td>Conform Password</td>
+								<td>
+									<input type="password" id="conformPassword">
+									<span id="conformPasswordErorr"></span>
+								</td>
+								
+							</tr>
+							<tr>
+								<td>Gender Info</td>
+								<td>
+									<input type="radio" name="gender" value="male"> Male
+									<input type="radio" name="gender" value="female"> Female
+									<span id="genderErorr"></span>
+								</td>
+							</tr>
+							<tr>
+								<td>District Name</td>
+								<td>
+									<select id="district">
+										<option value="selectD">----Select District Name----</option>
+										<option value="Dhaka">Dhaka</option>
+										<option value="Rajshahi">Rajshahi</option>
+										<option value="Khulna">Khulna</option>
+										<option value="Dinazpur">Dinazpur</option>
+										<option value="Commila">Commila</option>
+										<option value="Chitagang">Chitagang</option>
+									</select>
+									<span id="districtErorr"></span>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>
+									<input type="submit" value="submit" id="btn">
+								</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 footer-height"></div>
+			</div>
+		</div>
+		
+		<script src="script/jquery-3.4.1.js"></script>
+		<script src="script/script.js"></script>
+	</body>
+</html>
